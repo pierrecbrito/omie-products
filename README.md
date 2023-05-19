@@ -1,0 +1,1 @@
+### Script para pegar produtos cadastrados no ERP Omie e pôr em uma planilha
