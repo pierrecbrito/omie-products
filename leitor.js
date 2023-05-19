@@ -1,8 +1,8 @@
 //Ler todos os produtos da Omie e põe em um array de objetos
 
 const url = 'https://app.omie.com.br/api/v1/geral/produtos/'
-const app_key = "3004387328943"
-const app_secret = "65a8a234d64af98894c5f9f0787d5797"
+const app_key = process.env.APP_KEY
+const app_secret = process.env.APP_SECRET
 
 
 /**
