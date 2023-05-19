@@ -1,5 +1,6 @@
-//Ler todos os produtos da Omie e põe em um array de objetos
+require('dotenv').config()
 
+//Ler todos os produtos da Omie e põe em um array de objetos
 const url = 'https://app.omie.com.br/api/v1/geral/produtos/'
 const app_key = process.env.APP_KEY
 const app_secret = process.env.APP_SECRET
